@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: dodgerblue;
+    margin-top: 170px;
+    font-size: 50px;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    box-shadow: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 25px;
+    margin: 200px;
+}
+
+.container{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+}
+.box1, .box2, .box3{
+    border: black 3px;
+    background-color: lightyellow;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+
+}
+p{
+ font-size: 20px;
+    color: rebeccapurple;
+}
+#picOne, #picTwo, #picThree, #picFour{
+    height: 200px;
+    width: 230px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.bar{
+    height: 6px;
+    width: 80%;
+    background-color: white;
+}
+
+.menu{
+    position: fixed;
+    top:60px;
+    right: 0;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 150px;
+
+}

@@ -12,14 +12,14 @@ h1{
 nav {
     height: 60px;
     width: 100%;
-    background-color: white;
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
 }
 a {
     text-decoration: none;
-    color: rebeccapurple;
+    color: white;
     font-size: 25px;
     margin: 200px;
 }
@@ -52,32 +52,53 @@ p{
 
 }
 
-.menuIcon{
-    height: 100%;
-    width: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    cursor: pointer;
+
+
+@media screen and  (max-width: 800px) {
+    .menuIcon {
+        height: 100%;
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .bar {
+        height: 6px;
+        width: 80%;
+        background-color: white;
+    }
+
+    .menu {
+        position: fixed;
+        top: 60px;
+        right: -150px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        background-color: blue;
+        min-height: 150px;
+
+    }
+
+    .anotherA {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+    }
 }
-
-.bar{
-    height: 6px;
-    width: 80%;
-    background-color: white;
-}
-
-.menu{
-    position: fixed;
-    top:60px;
-    right: 0;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    min-height: 150px;
-
+ @media screen and (max-width: 800px){
+     .bigLink{
+         display: none;
+     }
+ }
+a:hover {
+    text-decoration: underline;
 }
